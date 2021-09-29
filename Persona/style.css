@@ -1,0 +1,54 @@
+*{  
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    margin: 0 auto;
+    padding: 1vh 0;
+    
+}
+body{
+    
+    background: radial-gradient(rgb(202, 121, 0), #F92206), url(../imagens/logo-hotmart-icone-1024.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+
+    color: rgb(207, 207, 207);
+}
+span{
+    font-weight: 700;
+}
+section{
+    padding: 3vh 6vw;
+    font-size: 150%;
+}
+header{
+    padding: 3vh 6vw;
+    font-size: 150%;
+    text-align: center;
+}
+#video{
+    display: flex;
+}
+#video article{
+    width: 60%;
+    padding: 2%;
+}
+img{
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    header{
+        text-align: left;
+    }
+    #video{
+        display: block;
+    }
+    #video article, #video iframe{
+        width: 100%;
+        
+    }
+}

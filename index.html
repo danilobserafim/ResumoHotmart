@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0; 
+            padding: 0;
+        }
+        
+
+
+        header{
+            color: rgb(248, 248, 248);
+            background-color: black;
+            align-items: center;
+            font-size: 130%;
+            display: flex;
+            justify-content: space-around;
+            height: 10vh;
+        }
+        header ul{
+            list-style: none;
+            display: flex;
+        }
+        .menu{
+            margin: 8px 16px;
+        }
+        .menu:hover{
+            cursor: pointer;
+            text-shadow: 1px 1px 2px rgb(255, 255, 190);
+        }
+        main, iframe{
+            
+            width: 100%;
+            height: 90vh;
+        }
+        @media (max-width: 980px) {
+            header h1{
+                visibility: hidden;
+                position: absolute;
+            }
+        }
+    </style>
+
+    <title>Inicio</title>
+    <header>
+        <h1 onclick="MudaIframe('inicio.html')">Meus resumos Hotmart</h1>
+        <nav>
+            <ul>
+                <li class="menu" onclick="MudaIframe('../PaginaDeVenda/PaginaDeVendas.html')">Pagina de vendas</li>
+                <li class="menu" onclick="MudaIframe('../persona/BuyerPersona.html')">Buyer Persona</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <iframe src="Inicio.html" frameborder="0" id="conteudo"></iframe>
+    </main>
+</head>
+<body>
+    
+</body>
+</html>
