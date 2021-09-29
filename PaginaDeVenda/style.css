@@ -26,6 +26,12 @@ header, section{
     font-size: 150%;
     margin: 0 auto;
 }
+header p{
+    font-size: 80%; color: white; margin-bottom: -15px;
+}
+header h1{
+    margin-bottom: 15px;
+}
 
 
 #video{
@@ -36,7 +42,7 @@ header, section{
     justify-content: space-between;
 }
 #video article, #video iframe{
-    max-width: 450px;
+    max-width: 50%;
     min-width: 450px;
 }
 #CTA button{
@@ -57,8 +63,9 @@ header, section{
         text-align: left;
     }
     #video article, #video iframe{
-    max-width: 100%;
-    min-width: 100%;
+        max-width: 100%;
+        min-width: 100%;
     }
+    
 
 }

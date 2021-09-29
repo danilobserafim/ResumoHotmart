@@ -31,6 +31,8 @@ header{
     text-align: center;
 }
 #video{
+    align-items: center;
+    padding: 15vh 6vw;
     display: flex;
 }
 #video article{

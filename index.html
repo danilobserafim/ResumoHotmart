@@ -11,9 +11,8 @@
             box-sizing: border-box;
             margin: 0; 
             padding: 0;
+            
         }
-        
-
 
         header{
             color: rgb(248, 248, 248);
@@ -23,6 +22,9 @@
             display: flex;
             justify-content: space-around;
             height: 10vh;
+        }
+        header h1{
+            cursor: pointer;
         }
         header ul{
             list-style: none;
@@ -54,12 +56,12 @@
         <nav>
             <ul>
                 <li class="menu" onclick="MudaIframe('PaginaDeVenda/PaginaDeVendas.html')">Pagina de vendas</li>
-                <li class="menu" onclick="MudaIframe('persona/BuyerPersona.html')">Buyer Persona</li>
+                <li class="menu" onclick="MudaIframe('Persona/BuyerPersona.html')">Buyer Persona</li>
             </ul>
         </nav>
     </header>
     <main>
-        <iframe src="Inicio.html" frameborder="0" id="conteudo"></iframe>
+        <iframe src="inicio.html" frameborder="0" id="conteudo"></iframe>
     </main>
 </head>
 <body>
