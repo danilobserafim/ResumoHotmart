@@ -32,7 +32,7 @@ header, section{
     align-items: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 15vh 0;
+    padding: 15vh 6vw;
     justify-content: space-between;
 }
 #video article, #video iframe{
