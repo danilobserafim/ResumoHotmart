@@ -6,27 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+        *{
+            margin: 0; padding: 0; box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
         body{
-            background: linear-gradient(to right bottom, rgb(255, 204, 110), #FB2407);
+            background: radial-gradient( rgb(209, 136, 0), rgb(255, 166, 0)), url(./imagens/backhot.jpg);
+            background-blend-mode: hard-light;
             background-size: cover;
+            background-position: center;
             background-attachment: fixed;
-            color: rgb(0, 0, 0);
-            text-shadow: 1px 1px gray;
 
+
+            color: white;
+            text-shadow: 1px 1px gray;
             text-align: center;
             align-items: center;
         }
         
+        .destaque{
+            background-color: rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(10px);
+
+            color: rgb(240, 240, 240);
+            text-shadow: 1px 1px 5px rgb(0, 0, 0);
+
+            padding: 0 3vw;
+            height: 100vh;
+    
+}
+
+
         a{
             color: white;
+        }
+        p{
+            margin-top: 5px;
+            font-size: large;
         }
     </style>
 
     <title>Inicio</title>
 </head>
 <body>
-    <h1>Bem Vindo aos meus resumos!</h1>
-    <p>Resumos de um estudo feito pela plataforma da <a href="https://www.youtube.com/channel/UCtHpJ-e56w6ATVUeoEBJWDg" target="_blank">Hotmart</a></p>
-    
+    <header class="destaque">
+        <h1>Bem Vindo aos meus resumos!</h1>
+        <p>Resumos de um estudo feito pela plataforma da <a href="https://www.youtube.com/channel/UCtHpJ-e56w6ATVUeoEBJWDg" target="_blank">Hotmart</a></p>
+        </header>
 </body>
 </html>

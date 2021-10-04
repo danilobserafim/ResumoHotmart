@@ -3,38 +3,56 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
     margin: 0 auto;
-    padding: 1vh 0;
-    
+    padding: 0;
 }
 body{
-    background: linear-gradient(to right bottom, rgb(255, 204, 110), #FB2407);
+    
+    background: radial-gradient( rgb(209, 136, 0), rgb(255, 166, 0)), url(../imagens/backhot.jpg);
+    background-blend-mode: hard-light;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
+    
     color: rgb(0, 0, 0);
-    text-shadow: 1px 1px gray;
+}
+P{
+    margin-top: 20PX;
+}
+.destaque{
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+
+    color: rgb(240, 240, 240);
+    text-shadow: 1px 1px 5px rgb(0, 0, 0);
+    
 }
 
+
 span{
-    
     font-weight: 700;
 }
 section{
-    padding: 3vh 6vw;
-    font-size: 150%;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.8);
+    
+    padding: 3vh 6vw 0 6vw;
+    font-size: 140%;
 }
 header{
-    padding: 3vh 6vw;
-    font-size: 150%;
+    padding: 3vh 6vw 0 6vw;
+    font-size: 130%;
     text-align: center;
 }
 #video{
-    align-items: center;
+    align-items: flex-start;
     padding: 15vh 6vw;
     display: flex;
 }
 #video article{
     width: 60%;
-    padding: 2%;
+}
+#diferencas p{
+ padding-top: 8%;
 }
 img{
     width: 100%;
@@ -42,6 +60,7 @@ img{
 
 @media (max-width: 1000px) {
     header{
+        height: 90vh;
         text-align: left;
     }
     #video{
@@ -49,6 +68,5 @@ img{
     }
     #video article, #video iframe{
         width: 100%;
-        
     }
 }
