@@ -45,7 +45,7 @@ header{
 }
 #video{
     align-items: flex-start;
-    padding: 15vh 6vw;
+    padding: 0 6vw 15vh 6vw;
     display: flex;
 }
 #video article{
@@ -60,7 +60,7 @@ img{
 
 @media (max-width: 1000px) {
     header{
-        height: 90vh;
+        height: 60vh;
         text-align: left;
     }
     #video{

@@ -66,6 +66,7 @@ header h1{
     padding-left: 3%;
 }
 #CTA button{
+    margin: 10px 0;
     cursor: pointer;
     color: rgb(255, 255, 255);
     background:rgb(6, 170, 0);
