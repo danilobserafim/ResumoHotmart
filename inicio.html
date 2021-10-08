@@ -9,14 +9,11 @@
         *{
             margin: 0; padding: 0; box-sizing: border-box;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 130%;
         }
         body{
-            background: radial-gradient( rgb(209, 136, 0), rgb(255, 166, 0)), url(./imagens/backhot.jpg);
-            background-blend-mode: hard-light;
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-
+            background: linear-gradient(to right bottom, rgb(0, 77, 192), rgb(25, 66, 128));
+            
 
             color: white;
             text-shadow: 1px 1px gray;
@@ -25,20 +22,25 @@
         }
         
         .destaque{
+
             background-color: rgba(0, 0, 0, 0.2);
             backdrop-filter: blur(10px);
 
             color: rgb(240, 240, 240);
             text-shadow: 1px 1px 5px rgb(0, 0, 0);
 
-            padding: 0 3vw;
+            padding: 4vh 3vw;
             height: 100vh;
-    
 }
 
 
         a{
             color: white;
+            transition: 0.5s;
+        }
+        a:hover{
+            text-shadow: 1px 1px 3px rgba(0, 255, 170, 0.459);
+            
         }
         p{
             margin-top: 5px;
